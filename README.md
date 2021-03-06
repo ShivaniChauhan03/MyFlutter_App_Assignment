@@ -1,4 +1,4 @@
-# indiatv_myapp
+# NewsApp
 
 A new Flutter application.
 
