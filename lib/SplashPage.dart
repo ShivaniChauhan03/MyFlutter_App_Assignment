@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'LoginFormWithValidation.dart';
+import 'LoginPage.dart';
 
 class SplashPage extends StatefulWidget {
   @override
