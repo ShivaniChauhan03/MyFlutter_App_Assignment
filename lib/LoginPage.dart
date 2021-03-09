@@ -3,12 +3,12 @@ import 'package:form_field_validator/form_field_validator.dart';
 
 import 'HomePage.dart';
 
-class LoginFormValidation extends StatefulWidget {
+class LoginPage extends StatefulWidget {
   @override
-  _LoginFormValidationState createState() => _LoginFormValidationState();
+  _LoginPageState createState() => _LoginPageState();
 }
 
-class _LoginFormValidationState extends State<LoginFormValidation> {
+class _LoginPageState extends State<LoginPage> {
   GlobalKey<FormState> formkey = GlobalKey<FormState>();
 
   String validatePassword(String value) {

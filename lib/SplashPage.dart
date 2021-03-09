@@ -42,8 +42,8 @@ class _SplashPageState extends State<SplashPage> {
     Navigator.of(context).pushReplacement(new PageRouteBuilder(
         maintainState: true,
         opaque: true,
-        pageBuilder: (context, _, __) => new LoginFormValidation(),
-        transitionDuration: const Duration(seconds: 2),
+        pageBuilder: (context, _, __) => new LoginPage(),
+        transitionDuration: const Duration(seconds: 3),
         transitionsBuilder: (context, anim1, anim2, child) {
           return new FadeTransition(
             child: child,
